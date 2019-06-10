@@ -7,6 +7,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	background-color: black;
+	font-family: "Montserrat", "Avenir";
 }
 
 header {
@@ -16,15 +17,17 @@ header {
 	padding-bottom: 2px;
 	margin: 0px;
 	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.1;
 }
 
 .bar {
-	height: 20px;
+	height: 30px;
 	background-color: white;
-/*	margin-bottom: 5px;
-	margin-top: 5px;*/
+	margin-bottom: 15px;
+	/*margin-top: 5px;*/
 	/*padding-top: 10px;*/
-	padding: 5px;
+	/*padding: 5px;*/
 	font-weight: bold;
 	text-align: center;
 }
@@ -33,43 +36,65 @@ header {
 	background-color: #73a3d6;
 	color: white;
 }
-
+/*
 .main {
 	padding-top: 20px;
+}
+*/
+.main {
+	margin: 0px auto;
+	max-width: 600px;
 }
 
 button {
 	color: #73a3d6;
 	border: none;
 	font-weight: bold;
-	font-size: 1em;
-/*	padding: 5px;
-	margin: 5px;*/
-	height: 40px;
+	font-size: 0.8em;
+	/*padding: 5px;*/
+	/*margin: 5px;*/
+	height: 30px;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+
+button:focus {
+	outline: none;
 }
 
 a {
 	color: #73a3d6;
 	border: none;
 	font-weight: bold;
-	font-size: 1em;
-	padding: 2px 1px 0;
+	font-size: 0.9em;
+	padding: 4px 2px 0;
 	margin: 5px;
 	/*outline: none;*/
 	text-decoration: none;
 }
-
+/*
 .firstRow, .secondRow {
 	display: flex;
 	justify-content: center;
 }
-
+*/
+/*
 .card {
 	width: 120px;
 	height: 120px;
 	background-color: #73a3d6;
 	margin: 10px;
 	padding: 10px;
+	border-radius: 10px;
+}
+*/
+
+.card {
+	width: 30%;
+	background-color: #73a3d6;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
 	border-radius: 10px;
 }
 
