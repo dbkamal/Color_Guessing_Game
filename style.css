@@ -1,0 +1,98 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+header {
+	background-color: #73a3d6;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	margin: 0px;
+	text-align: center;
+}
+
+.bar {
+	height: 20px;
+	background-color: white;
+/*	margin-bottom: 5px;
+	margin-top: 5px;*/
+	/*padding-top: 10px;*/
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.switchColor {
+	background-color: #73a3d6;
+	color: white;
+}
+
+.main {
+	padding-top: 20px;
+}
+
+button {
+	color: #73a3d6;
+	border: none;
+	font-weight: bold;
+	font-size: 1em;
+/*	padding: 5px;
+	margin: 5px;*/
+	height: 40px;
+}
+
+a {
+	color: #73a3d6;
+	border: none;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2px 1px 0;
+	margin: 5px;
+	/*outline: none;*/
+	text-decoration: none;
+}
+
+.firstRow, .secondRow {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	width: 120px;
+	height: 120px;
+	background-color: #73a3d6;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.fadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
