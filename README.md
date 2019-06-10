@@ -1,6 +1,12 @@
-wrong choice - card disappear, animation, result/message in bar
-right choice - all card reappear with same color, result/mesage in the bar + backgroud color is also changed + NEW COLOR turned into Play Again?  button - if you press, it will start over again
+Color Guessing Game Rules
+-------------------------
+- Play color guessing game and choose the correct RGB color grid from the six options
+- Guess the color code mentioned on the jumbotron
+- For wrong choice, box will disappear and for correct choice, all box along with jumbotron changes its color
+- Chooice easy (3 box) or hard (6 box) mode
 
-Easy/Hard - for easy play with 3 color grid, Hard - 6 (by default)
-
-for page load - change the color
+Tech Stack
+----------
+- HTML5
+- CSS3
+- Vanilla JavaScript
