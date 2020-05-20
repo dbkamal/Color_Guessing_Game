@@ -11,3 +11,5 @@ Tech Stack
 - CSS3
 - Vanilla JavaScript
 - Responsible website
+
+** Quick Test for GitHub Clone**
